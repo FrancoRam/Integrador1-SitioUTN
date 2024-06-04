@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entidades.dll": {}
+        }
+      },
+      "Integrador1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Integrador1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Integrador1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Entidades/1.0.0": {
+      "type": "project",
+      "path": "../Entidades/Entidades.csproj",
+      "msbuildProject": "../Entidades/Entidades.csproj"
+    },
+    "Integrador1/1.0.0": {
+      "type": "project",
+      "path": "../Integrador1/Integrador1.csproj",
+      "msbuildProject": "../Integrador1/Integrador1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Entidades >= 1.0.0",
+      "Integrador1 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ThinkPad\\source\\repos\\Ramirez.Franco.311\\Formulario\\Formulario.csproj",
+      "projectName": "Formulario",
+      "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\Ramirez.Franco.311\\Formulario\\Formulario.csproj",
+      "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ThinkPad\\source\\repos\\Ramirez.Franco.311\\Formulario\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\ThinkPad\\source\\repos\\Ramirez.Franco.311\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\Ramirez.Franco.311\\Entidades\\Entidades.csproj"
+            },
+            "C:\\Users\\ThinkPad\\source\\repos\\Ramirez.Franco.311\\Integrador1\\Integrador1.csproj": {
+              "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\Ramirez.Franco.311\\Integrador1\\Integrador1.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
